@@ -7,9 +7,10 @@ Additional code may be found at https://github.com/claclark/preferences
 This paper is one in a series of related papers. See https://github.com/claclark/Compatibility
 
 The data release includes a third finalization phase (not included in the paper):
+* ``questions.tsv``: Questions used for judging (slightly edited from original TREC questions)
 * ``judgments.txt``: Crowdsourced preference judgments
 * ``Set-I.qrels``: qrels based on first finalization phase
 * ``Set-II.qrels``: qrels based on second finalization phase
 * ``Set-III.qrels``: qrels based on third finalization phase
-* ``Combined-I+II.qrels``: qrels from combined first and second finalization phases
-* ``Combined-I+II+III.qrels``: qrels from combined first, second, and third finalization phases
+* ``Combined-I+II.qrels``: qrels created by combining first and second finalization phases
+* ``Combined-I+II+III.qrels``: qrels created combining first, second, and third finalization phases
